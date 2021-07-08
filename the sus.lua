@@ -131,11 +131,10 @@ local nocw_m = {}
 local curVel = 16
 local isBhopping = false
 
-local ESP = loadstring(game:HttpGet("https://pastebin.pl/view/raw/799823a0"))()
-local library = loadstring(game:HttpGet("https://pastebin.pl/view/raw/ce9a9d6c"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/idiotgangsta101/reatr/main/walls.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/idiotgangsta101/reatr/main/UI%20lol.lua"))()
 
 local Window = library:CreateWindow(Vector2.new(500, 500), Vector2.new((workspace.CurrentCamera.ViewportSize.X/2)-250, (workspace.CurrentCamera.ViewportSize.Y/2)-250))
-
 
 
 -- Functions
